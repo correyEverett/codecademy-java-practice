@@ -19,5 +19,7 @@ public class Magic {
         int stepFive = stepFour - myNumber;
         // Create an int variable called stepSix. Set it equal to the previous result (stepFive) divided by 6.
         int stepSix = stepFive / 6;
+        // Print out the value of the last step. Then, save and run your code! What number is printed to the console?
+        System.out.println(stepSix);
     }
 }
