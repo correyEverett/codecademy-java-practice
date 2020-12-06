@@ -17,5 +17,7 @@ public class Magic {
         int stepFour = stepThree + 17;
         // Create an int variable called stepFive. Set it equal to the previous result (stepFour) minus the original number.
         int stepFive = stepFour - myNumber;
+        // Create an int variable called stepSix. Set it equal to the previous result (stepFive) divided by 6.
+        int stepSix = stepFive / 6;
     }
 }
