@@ -9,5 +9,7 @@ public class Magic {
 
         //Create an int variable called stepOne. Set it equal to the original   number (myNumber) multiplied by itself.
         int stepOne = myNumber * myNumber;
+        //Create an int variable called stepTwo. Set it equal to the previous result (stepOne) plus the original number (myNumber).
+        int stepTwo = stepOne + myNumber;
     }
 }
