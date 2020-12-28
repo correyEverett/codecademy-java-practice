@@ -1,2 +1,5 @@
-public class SavingsAcount {
+public class SavingsAccount {
+
+    int balance;
+
 }
