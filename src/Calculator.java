@@ -15,6 +15,12 @@ public class Calculator {
         return sum;
     }
 
+    // subtract method
+    public int subtract(int a, int b) {
+        int difference = a - b;
+        return difference;
+    }
+
 
 
 
