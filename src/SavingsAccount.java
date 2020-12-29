@@ -24,6 +24,8 @@ public class SavingsAccount {
     }
 
     public static void main(String[] args){
+        SavingsAccount savings = new SavingsAccount(2000);
+
 
 
     }
