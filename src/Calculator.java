@@ -26,13 +26,14 @@ public class Calculator {
     // multiply method
     public int multiply(int a, int b) {
         int product = a * b;
-        System.out.printf("%d * %d = ", a, b);
+        System.out.printf("%d x %d = ", a, b);
         return product;
     }
 
     // divide method
     public int divide(int a, int b) {
         int quotient = a / b;
+        System.out.printf("%d / %d = ", a, b);
         return quotient;
     }
 
