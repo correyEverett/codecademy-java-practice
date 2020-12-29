@@ -21,6 +21,12 @@ public class Calculator {
         return difference;
     }
 
+    // multiply method
+    public int multiply(int a, int b) {
+        int product = a * b;
+        return product;
+    }
+
 
 
 
