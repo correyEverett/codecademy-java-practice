@@ -39,6 +39,11 @@ public class Calculator {
         return remainder;
     }
 
+    // main method
+    public static void main(String[] args) {
+
+
+    }
 
 
 
