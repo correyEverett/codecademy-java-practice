@@ -26,6 +26,7 @@ public class Calculator {
     // multiply method
     public int multiply(int a, int b) {
         int product = a * b;
+        System.out.printf("%d * %d = ", a, b);
         return product;
     }
 
@@ -47,6 +48,7 @@ public class Calculator {
 
         System.out.println(myCalculator.add(5, 7));
         System.out.println(myCalculator.subtract(45, 11));
+        System.out.println(myCalculator.multiply(9, 3));
         System.out.println(myCalculator.divide(32, 8));
         System.out.println(myCalculator.modulo(32, 8));
 
