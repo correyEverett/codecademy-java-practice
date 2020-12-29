@@ -33,6 +33,12 @@ public class Calculator {
         return quotient;
     }
 
+    // modulo method
+    public int modulo(int a, int b) {
+        int remainder = a % b;
+        return remainder;
+    }
+
 
 
 
