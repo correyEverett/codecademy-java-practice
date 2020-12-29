@@ -17,6 +17,12 @@ public class SavingsAccount {
 
     }
 
+    public int withdraw(int amountToWithdraw) {
+        balance = balance - amountToWithdraw;
+        System.out.println("You just withdrew " + amountToWithdraw);
+        return amountToWithdraw;
+    }
+
 
 
 }
