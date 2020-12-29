@@ -19,6 +19,7 @@ public class Calculator {
     // subtract method
     public int subtract(int a, int b) {
         int difference = a - b;
+        System.out.printf("%d - %d = ", a, b);
         return difference;
     }
 
