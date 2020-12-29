@@ -40,6 +40,7 @@ public class Calculator {
     // modulo method
     public int modulo(int a, int b) {
         int remainder = a % b;
+        System.out.printf("%d mod %d = ", a, b);
         return remainder;
     }
 
