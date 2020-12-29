@@ -45,6 +45,7 @@ public class Calculator {
 
         System.out.println(myCalculator.add(5, 7));
         System.out.println(myCalculator.subtract(45, 11));
+        System.out.println(myCalculator.divide(32, 8));
 
     }
 
