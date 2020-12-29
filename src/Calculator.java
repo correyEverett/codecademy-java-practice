@@ -4,4 +4,13 @@ It was created by Correy in December 2020.
 */
 public class Calculator {
 
+    // constructor
+    public Calculator() {
+
+    }
+
+
+
+
+
 }
