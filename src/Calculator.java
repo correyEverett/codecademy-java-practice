@@ -44,7 +44,7 @@ public class Calculator {
         Calculator myCalculator = new Calculator();
 
         System.out.println(myCalculator.add(5, 7));
-
+        System.out.println(myCalculator.subtract(45, 11));
 
     }
 
