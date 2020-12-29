@@ -41,6 +41,7 @@ public class Calculator {
 
     // main method
     public static void main(String[] args) {
+        Calculator myCalculator = new Calculator();
 
 
     }
