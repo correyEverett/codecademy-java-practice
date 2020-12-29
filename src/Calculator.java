@@ -27,6 +27,12 @@ public class Calculator {
         return product;
     }
 
+    // divide method
+    public int divide(int a, int b) {
+        int quotient = a / b;
+        return quotient;
+    }
+
 
 
 
