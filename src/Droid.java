@@ -15,5 +15,12 @@ public class Droid {
         return "Hello! My name is " + name + ". I am a Droid";
     }
 
+    // performingATask method
+    public void performingATask(String task) {
+        System.out.println(name + " is performing the task of: " + task);
+        batteryLevel = batteryLevel - 10;
+        int remainingPower = batteryLevel;
+    }
+
 
 }
