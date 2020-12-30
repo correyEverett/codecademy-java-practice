@@ -27,5 +27,10 @@ public class Droid {
         System.out.println(name + "'s remaining power is: " + batteryLevel);
     }
 
+    // MAIN METHOD
+    public static void main(String[] args) {
+
+
+    }
 
 }
