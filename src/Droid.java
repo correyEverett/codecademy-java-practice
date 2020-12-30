@@ -4,5 +4,10 @@ public class Droid {
     String name;
     int batteryLevel;
 
+    // constructor
+    public Droid(String droidName) {
+        name = droidName;
+        batteryLevel = 100;
+    }
 
 }
