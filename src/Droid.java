@@ -10,4 +10,10 @@ public class Droid {
         batteryLevel = 100;
     }
 
+    // toString method
+    public String toString() {
+        return "Hello! My name is " + name + ". I am a Droid";
+    }
+
+
 }
