@@ -22,5 +22,10 @@ public class Droid {
         int remainingPower = batteryLevel;
     }
 
+    // energyReport method
+    public void energyReport() {
+        System.out.println(name + "'s remaining power is: " + batteryLevel);
+    }
+
 
 }
