@@ -39,6 +39,12 @@ public class Droid {
         codey.energyReport();
         System.out.println();
 
+        System.out.println(iris);
+        // iris.performingATask("running");
+        // iris.performingATask("jumping");
+        iris.performingATask("coding");
+        iris.energyReport();
+        System.out.println();
 
     }
 
