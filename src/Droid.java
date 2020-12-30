@@ -30,6 +30,7 @@ public class Droid {
     // MAIN METHOD
     public static void main(String[] args) {
         Droid codey = new Droid("Codey");
+        Droid iris = new Droid("Iris");
 
 
     }
