@@ -32,6 +32,13 @@ public class Droid {
         Droid codey = new Droid("Codey");
         Droid iris = new Droid("Iris");
 
+        System.out.println(codey);
+        codey.performingATask("running");
+        codey.performingATask("jumping");
+        codey.performingATask("coding");
+        codey.energyReport();
+        System.out.println();
+
 
     }
 
