@@ -11,6 +11,7 @@ public class CarLoan {
         } else if(downPayment >= carLoan) {
             System.out.println("The car can be paid in full.");
         } else {
+            int remainingBalance = carLoan - downPayment;
 
         }
     }
