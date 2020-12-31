@@ -12,6 +12,7 @@ public class CarLoan {
             System.out.println("The car can be paid in full.");
         } else {
             int remainingBalance = carLoan - downPayment;
+            int months = loanLength * 12;
 
         }
     }
