@@ -15,6 +15,7 @@ public class CarLoan {
             int months = loanLength * 12;
             int monthlyBalance = remainingBalance / months;
             int interest = monthlyBalance * interestRate / 100;
+            int monthlyPayment = monthlyBalance + interest;
 
         }
     }
