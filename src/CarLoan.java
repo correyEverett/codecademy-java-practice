@@ -10,6 +10,8 @@ public class CarLoan {
             System.out.println("Error! You must take out a valid car loan.");
         } else if(downPayment >= carLoan) {
             System.out.println("The car can be paid in full.");
+        } else {
+
         }
     }
 }
