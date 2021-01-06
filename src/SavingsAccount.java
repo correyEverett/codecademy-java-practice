@@ -1,6 +1,6 @@
 public class SavingsAccount {
 
-    int balance;
+    double balance;
 
     public SavingsAccount(int initialBalance){
         balance = initialBalance;
@@ -8,18 +8,19 @@ public class SavingsAccount {
 
     public void checkBalance() {
         System.out.println("Hello!");
-        System.out.println("Your balance is " + balance);
+        System.out.println("Your balance is $" + balance);
     }
 
-    public void deposit(int amountToDeposit) {
+    public void deposit(double amountToDeposit) {
         balance = balance + amountToDeposit;
-        System.out.println("You just deposited " + amountToDeposit);
-
+        System.out.println("You just deposited $" + amountToDeposit);
+        System.out.println();
     }
 
-    public int withdraw(int amountToWithdraw) {
+    public double withdraw(double amountToWithdraw) {
         balance = balance - amountToWithdraw;
-        System.out.println("You just withdrew " + amountToWithdraw);
+        System.out.println("You just withdrew $" + amountToWithdraw);
+        System.out.println();
         return amountToWithdraw;
     }
 
@@ -46,6 +47,8 @@ public class SavingsAccount {
 
         //Check balance:
         savings.checkBalance();
+
+        System.out.println("The process is complete. Sank U GOODBYE!");
 
     }
 
