@@ -28,6 +28,8 @@ class Playlist {
         // Create a temporary variable to store the value of a song.
         String tempA = desertIslandPlaylist.get(3);
         String tempB = desertIslandPlaylist.get(0);
+        // Rewrite the value at the index of a to the value of b.
+        desertIslandPlaylist.set(3, tempB);
 
 
     }
