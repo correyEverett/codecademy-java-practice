@@ -31,6 +31,11 @@ class Playlist {
         // Rewrite the value at the index of a to the value of b.
         desertIslandPlaylist.set(3, tempB);
 
+        // Rewrite the value at the index of b to the value of the temporary variable.
+        desertIslandPlaylist.set(0, tempA);
+
+        // System.out.println(desertIslandPlaylist.size());
+        System.out.println(desertIslandPlaylist);
 
     }
 
