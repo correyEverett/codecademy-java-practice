@@ -11,6 +11,7 @@ class Playlist {
         desertIslandPlaylist.add("Love In This Club");
         desertIslandPlaylist.add("Renagade");
         desertIslandPlaylist.add("Charlene");
+        System.out.println(desertIslandPlaylist);
 
 
     }
