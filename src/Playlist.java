@@ -21,6 +21,14 @@ class Playlist {
         System.out.println("Love In This Club is located at index " + indexA);
         System.out.println();
 
+        int indexB = desertIslandPlaylist.indexOf("Confessions");
+        System.out.println("\nConfessions is located at index " + indexB);
+        System.out.println();
+
+        // Create a temporary variable to store the value of a song.
+        String tempA = desertIslandPlaylist.get(3);
+        String tempB = desertIslandPlaylist.get(0);
+
 
     }
 
