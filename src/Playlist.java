@@ -1,2 +1,6 @@
-public class Playlist {
+import java.util.ArrayList;
+
+class Playlist {
+
+
 }
