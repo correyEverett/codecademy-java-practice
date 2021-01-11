@@ -25,5 +25,20 @@ class PrimeDirective {
         return true;
     }
 
+    // onlyPrimes();
+    public ArrayList<Integer> onlyPrimes(int[] numbers) {
+        ArrayList<Integer> primes = new ArrayList<Integer>();
+
+        for(int number : numbers) {
+            if(isPrime(number) == true) {
+                primes.add(number);
+            }
+        }
+
+        System.out.println();
+        System.out.println(primes);
+        return primes;
+    }
+
 
 }
