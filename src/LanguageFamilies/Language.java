@@ -20,6 +20,15 @@ public class Language {
     }
 
     public static void main(String[] args) {
+        Mayan yucatec = new Mayan("Yucatec", 812633);
+        SinoTibetan chinese = new SinoTibetan("Mandarin Chinese", 850000000);
+        SinoTibetan burmese = new SinoTibetan("Burmese", 33000000);
 
+        System.out.println();
+        yucatec.getInfo();
+        System.out.println();
+        chinese.getInfo();
+        System.out.println();
+        burmese.getInfo();
     }
 }
