@@ -20,5 +20,13 @@ public class Traversing2DArrays {
         // Store the number of rows in intMatrix into a variable called 'rows'
         int rows = intMatrix.length;
 
+        // iterate through the entire 2D array. Print the sum of the indeces.
+        int sum = 0;
+        for(int i=0; i < intMatrix.length; i++) {
+            for(int j = 0; j < intMatrix[i].length; j++) {
+                sum += intMatrix[i][j];
+            }
+        }
+        System.out.println(sum);
     }
 }
