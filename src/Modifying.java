@@ -8,5 +8,9 @@ public class Modifying {
                 {9, 8, 7, 6, 5}
         };
 
+        // Replace the number 4 in the 2D array with the number 0
+        intMatrix[1][1] = 0;
+        System.out.println(Arrays.deepToString(intMatrix));
+
     }
 }
