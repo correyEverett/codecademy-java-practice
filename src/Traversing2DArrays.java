@@ -8,6 +8,8 @@ public class Traversing2DArrays {
                 {46, 48, 50, 52, 54, 56, 58},
                 {60, 62, 64, 66, 68, 70, 79}
         };
+        // Store the number of subarrays of intMatrix into a variable called 'numSubArrays'
+        int numSubArrays = intMatrix.length;
 
     }
 }
