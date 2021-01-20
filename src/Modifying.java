@@ -21,5 +21,7 @@ public class Modifying {
         subMatrix[1][0] = intMatrix[1][0] * 5;
         subMatrix[1][1] = intMatrix[1][1] * 5;
 
+        System.out.println(Arrays.deepToString(subMatrix));
+
     }
 }
