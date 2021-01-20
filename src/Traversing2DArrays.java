@@ -17,5 +17,8 @@ public class Traversing2DArrays {
         // Store the number of columns in intMatrix into a variable called 'columns'
         int columns = intMatrix[0].length;
 
+        // Store the number of rows in intMatrix into a variable called 'rows'
+        int rows = intMatrix.length;
+
     }
 }
