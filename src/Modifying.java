@@ -12,5 +12,8 @@ public class Modifying {
         intMatrix[1][1] = 0;
         System.out.println(Arrays.deepToString(intMatrix));
 
+        // Declare and initialize a new empty 2x2 integer 2D array called subMatrix
+        int[][] subMatrix = new int[2][2];
+
     }
 }
