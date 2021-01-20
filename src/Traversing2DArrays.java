@@ -14,5 +14,8 @@ public class Traversing2DArrays {
         // Store the length of the subarrays using the first subarray in intMatrix. Store it in a variable called subArrayLength.
         int subArrayLength = intMatrix[0].length;
 
+        // Store the number of columns in intMatrix into a variable called 'columns'
+        int columns = intMatrix[0].length;
+
     }
 }
