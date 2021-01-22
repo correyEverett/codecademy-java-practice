@@ -22,7 +22,7 @@ public class Traversing2DArrays {
 
         // iterate through the entire 2D array. Print the sum of the indeces.
         int sum = 0;
-        for(int i=0; i < intMatrix.length; i++) {
+        for(int i = 0; i < intMatrix.length; i++) {
             for(int j = 0; j < intMatrix[i].length; j++) {
                 sum += intMatrix[i][j];
             }
